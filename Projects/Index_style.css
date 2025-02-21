@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+.main_body{
+    background-image: url('./downloaded-image-2.avif') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    height: 100vh;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    align-items: left;
+    text-align: left;
+    padding: 30px;   
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+    position: relative;
+    }
+body {
+    padding-top: 60px;
+}
+.extra-content {
+    background-color: rgb(0, 0, 0, 0.8); /* Light gray background */
+    padding: 50px 20px;
+    text-align: center;
+    height: 100vh;
+    color: #fffbfb;
+    margin-top: 100vh;
+}
+
+.extra-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.extra-content p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.extra-content ul{
+    list-style: none;
+}
+
+.extra-content li{
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+    width: 50%;
+    background-color: #0d0d0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; 
+    transition: background 0.5s ease;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px; 
+    font-weight: 900; 
+    text-transform: uppercase; 
+    color: white; 
+    line-height: 1.2; 
+    letter-spacing: 2px; 
+    text-align: justify;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+}
+.title_description{
+    display: inline; 
+    white-space: nowrap;
+    font-size: 20px;
+}
+.button {
+    display: inline-block;
+    margin: 0px;
+    padding: 15px 30px;
+    background-color: #130c38;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border:none;
+    text-decoration: none;
+    outline: none;
+    box-sizing:content-box;
+    transition: background 0.3s ease;
+
+}
+button{
+    background: none;
+    border: 5px;
+    border-style: groove;
+    border-color: #241b52;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background: #130c38; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(27, 26, 26); 
+    padding: 25px 30px;
+    position: fixed; 
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+.nav_title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-right: 30px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff5733; 
+}
+
+nav a.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px; 
+    width: auto; 
+}
+
+.section2_list {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    list-style: none; 
+    padding: 0;
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.section2_list li {
+    background-color: #130c38;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 250px; 
+    height: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.section2_list h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.section2_list p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section2_list li:hover {
+    transform: scale(1.05); 
+    background-color: #241b52;
+}
+
+.section2_button {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    color: #130c38;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.section2_button:hover {
+    background-color: #ff5733; 
+    color: white;
+}
