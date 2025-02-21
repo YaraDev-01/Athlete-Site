@@ -5,7 +5,7 @@
 }
 
 .main_body{
-    background-image: url('./downloaded-image-2.avif') ;
+    background-image: url('./Images/downloaded-image-2.avif') ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
