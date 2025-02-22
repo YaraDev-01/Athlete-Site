@@ -1,0 +1,140 @@
+/*navbar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(27, 26, 26); 
+  padding: 25px 30px; 
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.nav_title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding-right: 30px;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff5733; 
+}
+
+nav a.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px; 
+  width: auto; 
+}
+/*wavy*/
+.wave-container {  
+  height: 40vh;
+  background-color: #000000;
+  position: relative;
+}
+body{background-color: rgba(242, 235, 235, 0.852);}
+.wave-container::before {   
+  content: "";
+  width: 100%;
+  height: 72px;
+  position: absolute;
+  bottom: -0.3%;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 1vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  99' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 72L50 68C100 63 200 55 300 37C400 19 500 -8 600 1C700 10 800 55 900 72C1000 90 1100 81 1150 77L1200 72V99H1150C1100 99 1000 99 900 99C800 99 700 99 600 99C500 99 400 99 300 99C200 99 100 99 50 99H0V72Z' fill='%23FFF5EE'/></svg>");
+}
+@media(max-width:850px) {
+  .wave-container::before {    
+    height: 36px
+  }  
+}
+  .hi{font-size: 75px;
+    font-family:Franklin Gothic Medium;
+    
+    font-weight: bolder;
+    color: rgb(234, 218, 218);
+    text-align: center;
+    position: relative;
+    
+  }
+  .p1{font-family:Franklin Gothic Medium;
+    font-weight:smaller;
+    color: rgb(244, 244, 235);
+    position: relative;
+    font-size: large;
+    text-align: center;
+}
+/*coach*/
+.coach{margin-top:100px;}
+.coach img{ max-width:100%;}
+.life {width:300px; height:300px;
+background-color: azure; position:relative;
+bottom:100px;
+padding:20px;
+border-radius:0px 5px;}
+.life a{color:blueviolet; border-bottom:1px solid;}
+/*gallery intro*/
+.pcarousel{
+  text-align: center;
+font-family:Franklin Gothic Medium;
+padding: 30px;
+}
+.p2{color: rgb(109, 107, 107);font-size: larger;}
+.h2{color: rgb(0, 0, 0);font-size: xx-large;}
+
+
+
+.gallery {
+  margin-right: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 320px;
+  height: 200px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: larger;
+  font-family: Franklin Gothic Medium;
+  font-weight: bold;
+  color: #6b6a6a;
+}
+
